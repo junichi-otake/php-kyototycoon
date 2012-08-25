@@ -75,14 +75,14 @@ class Kyototycoon{
     if($db) $params['DB']=$db;
     return $this->_httpPost($api, $params);
   }
-  protected function ary2tsv( $params ){
+  protected function _ary2tsv( $params ){
     $tsv = "";
     foreach($params as $key=>$value){
       $tsv .= $key."\t".rawurlencode($value)."\n";
     }
     return $tsv;
   }
-  protected function tsv2ary( $response, $colenc='U' ){
+  protected function _tsv2ary( $response, $colenc='U' ){
     if($response){
       $data = array();
       $list = explode("\n",$response);
