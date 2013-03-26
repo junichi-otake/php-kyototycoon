@@ -1,9 +1,20 @@
 php-kyototycoon
 ===============
 
-copyright 2012 Junichi Otake. <junichi.otake@gmail.com>
+Kyototycoonをphpから使います。
 
+デフォルトで、lz4 と messagepackを利用していますので、使わない場合は、PHPかJSON
+にしてお試しください。
+
+lua play_script対応
+get|set bulk対応
+
+ご参考にどうぞ
+
+Junichi Otake. <junichi.otake@gmail.com>
 http://groundroad.com/
+https://twitter.com/JunichiOtake
+
 
 for simply using kyototycoon
 
@@ -14,7 +25,6 @@ usage
     $kt->set('keyname', 'value_string' );
     echo $kt->get('keyname');
     // value_string
-
 
 
 Kyoto Tycoon
