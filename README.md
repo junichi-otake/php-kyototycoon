@@ -12,9 +12,6 @@ get|set bulk対応
 ご参考にどうぞ
 
 Junichi Otake. <junichi.otake@gmail.com>
-http://groundroad.com/
-https://twitter.com/JunichiOtake
-
 
 for simply using kyototycoon
 
